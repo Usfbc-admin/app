@@ -1,0 +1,84 @@
+.admin-form-container {
+  max-width: 640px;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.admin-header h1 {
+  margin-bottom: 20px;
+}
+
+.admin-error {
+  color: #C00;
+  margin-bottom: 10px;
+}
+
+.admin-select-survey {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.survey-meta-editor {
+  margin-bottom: 25px;
+}
+
+.survey-title-input, .survey-desc-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+}
+
+.btn-save-survey, .btn-create-survey {
+  background-color: #8C4CA4;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.btn-back {
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+}
+
+.questions-editor {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.question-card {
+  background: #F8F8FF;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.question-card.new {
+  background: #eef;
+}
+
+.question-text {
+  flex: 1;
+  padding: 6px;
+  margin-right: 8px;
+  font-size: 1em;
+}
+
+.question-card select {
+  margin-right: 8px;
+}
+
+.btn-delete-question, .btn-add-question {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.4em;
+}
