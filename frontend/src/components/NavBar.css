@@ -1,0 +1,26 @@
+/* src/components/Navbar.css */
+.usf-navbar {
+    background-color: #CE0037;
+  }
+  .usf-navbar .navbar-brand,
+  .usf-navbar .nav-link {
+    color: #fff;
+  }
+  .usf-navbar .nav-link:hover {
+    color: #f8f9fa;
+  }
+  
+  /* your login form tweaks */
+  .usf-login-form .form-control {
+    max-width: 180px;
+  }
+  .usf-login-form .btn-light {
+    background-color: #fff;
+    color: #CE0037;
+    border: 1px solid #fff;
+  }
+  .usf-login-form .btn-light:hover {
+    background-color: #f8f9fa;
+    color: #CE0037;
+  }
+  
