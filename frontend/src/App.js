@@ -1,6 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+import { withAuthenticator } from '@aws-amplify/ui-react';
+import '@aws-amplify/ui-react/styles.css';
+
 import HomePage from './pages/HomePage';
 import NavBar from './components/NavBar';
 import SurveyPage from './pages/SurveyPage';
@@ -8,7 +11,7 @@ import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import AdminPage from './pages/AdminPage';
 
-export default function App() {
+function App() {
   return (
     <BrowserRouter>
       {/* Render NavBar at the top level so it appears on every route */}
@@ -27,3 +30,5 @@ export default function App() {
     </BrowserRouter>
   );
 }
+
+export default withAuthenticator(App);
